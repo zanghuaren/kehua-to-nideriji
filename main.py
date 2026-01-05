@@ -49,6 +49,7 @@ def parse_text_file(path):
     for line in lines + [""]:
         # 匹配日期时间行
         m = re.match(r"(\d{4})年(\d{2})月(\d{2})日 (\d{2}:\d{2}:\d{2})", line)
+        
         if m:
             flush()
             y, mo, d, t = m.groups()
