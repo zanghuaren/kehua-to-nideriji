@@ -7,7 +7,7 @@ from pathlib import Path
 import time
 
 # ================== 配置区 ==================
-DRY_RUN = True  # True = 只打印不上传，False = 实际上传
+DRY_RUN = False  # True = 只打印不上传，False = 实际上传
 BASE_DIR = "我的动态"
 EMAIL = ""  # 填写账号邮箱。如果账号是qq则请自动补全为qq邮箱填写
 PASSWORD = ""
