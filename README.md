@@ -10,4 +10,8 @@ END_DATE_STR = "2025-12-10"
 ```
 注意账号要填写邮箱。如果账号是qq则请自动补全为qq邮箱填写。  
 
+安装需要的库
+```
+pip install requests
+```
 运行main.py即可。
